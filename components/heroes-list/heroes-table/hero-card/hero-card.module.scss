@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem 2rem 2rem;
+  .img {
+    width: 45.125rem;
+    width: 56%;
+    height: 22.5625rem;
+    object-fit: cover;
+    border-radius: 1.25rem;
+  }
+
+  .card {
+    flex: 0 0 41%;
+    height: 22.5625rem;
+    background: linear-gradient(
+      241.25deg,
+      #f9f7ff 4.4%,
+      rgba(255, 255, 255, 0.53) 119.94%
+    );
+    box-shadow: -0.625rem 0.625rem 1.25rem rgba(67, 16, 174, 0.12);
+    backdrop-filter: blur(1.625rem);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 0.641rem;
+    padding: 1.8125rem;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.04em;
+    margin-top: 0;
+  }
+
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .detail {
+    width: 50%;
+    padding: 18px 7px;
+    .label {
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      opacity: 0.5;
+      margin-bottom: 6px;
+      text-transform: capitalize;
+    }
+    .value {
+      color: var(--color-secondary);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}

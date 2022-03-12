@@ -1,0 +1,19 @@
+.wrapper {
+  .table {
+    display: grid;
+    grid-template-columns: 6.25rem repeat(4, 1fr) 5.25rem;
+
+    > div {
+      height: var(--input-height);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header {
+      background-color: var(--color-secondary);
+      color: white;
+      font-weight: bold;
+      font-size: 0.875rem;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.header {
+  text-align: center;
+  .bg {
+    height: 8.5625rem;
+    background-image: url("../../public/images/bg.jpg");
+    background-size: cover;
+    background-position: 0% 78%;
+
+    @media screen and (min-width: 700px) {
+      height: 13.5625rem;
+    }
+  }
+
+  img {
+    margin-top: -3.8125rem;
+    width: Min(50vw, 254px);
+  }
+}

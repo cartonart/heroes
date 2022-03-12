@@ -1,0 +1,18 @@
+.even {
+  background-color: #f5f0ff;
+}
+
+.odd {
+  background-color: white;
+}
+
+.collapse {
+  grid-column: 1 / 7;
+  .content {
+    width: 100%;
+  }
+}
+
+.more {
+  cursor: pointer;
+}

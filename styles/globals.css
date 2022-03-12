@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #f7f7f7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+:root {
+  --input-height: 3rem;
+
+  --color-primary: #4310ae;
+  --color-secondary: #200062;
+}

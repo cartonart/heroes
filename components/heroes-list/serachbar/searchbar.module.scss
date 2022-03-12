@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1.75rem 0;
+
+  input {
+    width: 30.0625rem;
+    height: 2.875rem;
+    background: #ffffff;
+    border: 0.0625rem solid #dddddd;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.1875rem 3.125rem 0 1.75rem;
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+
+  .input-wrapper {
+    position: relative;
+    margin-right: 1.25rem;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 2rem;
+      height: 100%;
+      right: 1rem;
+      background: url("/icons/search.svg") no-repeat center;
+    }
+  }
+
+  button {
+    width: 6.25rem;
+    height: var(--input-height);
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    color: #efeffd;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-radius: 0.5rem;
+    border: none;
+  }
+}
